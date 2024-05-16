@@ -22,7 +22,7 @@ Home Loan Approval Prediction System using machine learning algorithm to analyze
 
 ## Dataset
 
-* Here, I have used [this](https://drive.google.com/file/d/1_2PM1emVVVMgnzbjdoUDp-0dlJVaupjf/view?usp=sharing) home loan dataset. You can use your own dataset. Just upload the dataset on your Google Drive and place the URL of the dataset in `config/config.yaml/data_ingestion/source_URL`. Your Google Drive dataset must have all-view access.
+* Here, I have used [this] home loan dataset. You can use your own dataset. Just upload the dataset on your Google Drive and place the URL of the dataset in `config/config.yaml/data_ingestion/source_URL`. Your Google Drive dataset must have all-view access.
 
 
 
@@ -31,12 +31,11 @@ Home Loan Approval Prediction System using machine learning algorithm to analyze
 <div style="padding-bottom:10px"><b>STEP 00 :</b> Clone the repository</div>
 
 ```bash
-https://github.com/utpal108/Home-Loan-Approval-Prediction
+git clone https://github.com/namanbansal02/Home-Loan-Approval-Prediction
 ```
 <div style="padding-top:10px"><b>STEP 01 :</b> Create a virtial environment after opening the repository</div>
 
 Using Anaconda Virtual Environments
-
 ```bash
 conda create -n venv python=3.10 -y
 conda activate venv
@@ -47,7 +46,10 @@ Or for Linux operating system, you can use that
 python3.10 -m venv venv
 source venv/bin/activate
 ```
-
+or gitpod virtual env
+```bash
+pyenv install 3.10 && pyenv local 3.11
+```
 <div style="padding-top:10px; padding-bottom:10px"><b>STEP 02 :</b> Install the requirements</div>
 
 ```bash
